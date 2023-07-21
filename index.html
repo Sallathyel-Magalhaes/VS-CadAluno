@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="main.css">
+  <link rel="shortcut icon" href="img/cadIcon.png" type="image/x-icon">
+  <title>VS - CadAlunos</title>
+</head>
+
+<body>
+  <h1>Cadastro de Alunos</h1>
+  <form id="formulario" method="POST" action="https://formsubmit.co/vsthyel42@gmail.com">
+    <label for="nome">Nome:</label>
+    <input type="text" name="nome" required autocomplete="off">
+
+    <label for="serie">Série:</label>
+    <input type="text" name="serie" required autocomplete="off">
+
+    <label for="turma">Turma:</label>
+    <input type="text" name="turma" required autocomplete="off">
+
+    <label for="email">Email:</label>
+    <input type="email" name="email" required autocomplete="off">
+
+    <label for="celular">Número de Celular:</label>
+    <input type="tel" name="celular" required autocomplete="off">
+
+    <label for="carreira">Carreira Desejada:</label>
+    <select name="carreira" required>
+      <option value="" selected disabled>Selecione a Carreira</option>
+      <option value="Nenhum">Nenhum</option>
+      <option value="Administração">Administração</option>
+      <option value="Biomedicina">Biomedicina</option>
+      <option value="Ciências Contábeis">Ciências Contábeis</option>
+      <option value="Ciências Econômicas">Ciências Econômicas</option>
+      <option value="Design">Design</option>
+      <option value="Direito">Direito</option>
+      <option value="Educação Física">Educação Física</option>
+      <option value="Engenharia Civil">Engenharia Civil</option>
+      <option value="Engenharia Elétrica">Engenharia Elétrica</option>
+      <option value="Fisioterapia">Fisioterapia</option>
+      <option value="Geografia">Geografia</option>
+      <option value="História">História</option>
+      <option value="Jornalismo">Jornalismo</option>
+      <option value="Matemática">Matemática</option>
+      <option value="Medicina">Medicina</option>
+      <option value="Medicina Veterinária">Medicina Veterinária</option>
+      <option value="Música">Música</option>
+      <option value="Nutrição">Nutrição</option>
+      <option value="Outros">Outros</option>
+      <option value="Português">Português</option>
+      <option value="Psicologia">Psicologia</option>
+      <option value="Recursos Humanos">Recursos Humanos</option>
+    </select>
+
+    <button type="submit">Enviar</button>
+  </form>
+
+  <script src="enviar_formulario.js"></script>
+</body>
+
+</html>
